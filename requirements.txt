@@ -1,29 +1,29 @@
-# Pin dependancies that might cause breakage
-Werkzeug==2.1.2
-SQLAlchemy==1.4.46
-
-# Build dependencies
-Flask==2.1.2
-Flask-SQLAlchemy==2.5.1
-psycopg2-binary==2.9.3
-python-dotenv==0.20.0
+# Pinned dependencies
+Werkzeug==3.1.3
+SQLAlchemy==2.0.36
 
 # Runtime dependencies
-gunicorn==20.1.0
-honcho==1.1.0
+Flask==3.1.0
+Flask-SQLAlchemy==3.1.1
+psycopg2-binary==2.9.10
+python-dotenv==1.0.1
+
+# Runtime tools
+gunicorn==23.0.0
+honcho==2.0.0
 
 # Code quality
-pylint==2.14.0
-flake8==4.0.1
-black==22.3.0
+pylint==3.3.2
+flake8==7.1.1
+black==24.10.0
 
 # Testing dependencies
-nose==1.3.7
+pynose==1.5.3
 pinocchio==0.4.3
-factory-boy==2.12.0
+factory-boy==3.3.1
 
 # Code Coverage
-coverage==6.3.2
+coverage==7.6.9
 
 # Utilities
-httpie==3.2.1
+httpie==3.2.4
